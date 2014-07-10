@@ -1,0 +1,74 @@
+.center {
+	text-align: center;
+}	
+
+.social {
+margin-bottom: 15px;
+overflow: hidden;
+
+	h2{
+		display: block;
+		width: 50%;
+		height: 40px;
+		padding:3px;
+		font-family: 'Open Sans', arial, helvetica, sans-serif;
+		font-weight: 300;
+		font-size:1.9em;
+		text-transform: uppercase;
+		margin: 0;
+		zoom: 1;
+		z-index: 100;
+		color: #000000;
+		background: #FFFFFF;
+		
+	}
+
+	.pam{
+		display:none;
+	}
+	._4s7c{
+		border:none;
+	}
+
+	
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	padding-top: 20px;
+}
+
+/* 
+Make the Facebook Like box responsive (fluid width)
+https://developers.facebook.com/docs/reference/plugins/like-box/ 
+*/
+
+/* 
+This element holds injected scripts inside iframes that in 
+some cases may stretch layouts. So, we're just hiding it. 
+*/
+
+#fb-root {
+    display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+
+@media (max-width:768px) {
+
+.blog-post{
+	overflow:scroll;
+
+		#container, #content{
+			width:100%;
+		}
+}
+.social h2{
+	
+	width:100%;
+}
+}
